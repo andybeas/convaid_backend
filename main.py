@@ -59,5 +59,9 @@ def get_answer(item: Item):
     return {"answer": assistant.get_agent_answer(item.query)}
 
 
+if __name__ == "__main__":
+    port = int(os.getenv("PORT", 8000))  # Default to 8000 if PORT is not set
+    uvicorn.run(app, host="0.0.0.0", port=port, reload=True)
+
 
 # uvicorn main:app --reload --port 8000 
