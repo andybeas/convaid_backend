@@ -1,7 +1,7 @@
 """SQL CHAIN"""
 
 import os
-import openai
+import openai as gpt_j
 import pandas as pd
 # from langchain.agents import create_pandas_dataframe_agent
 from langchain_experimental.agents import create_pandas_dataframe_agent
