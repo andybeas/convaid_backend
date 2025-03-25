@@ -4,3 +4,4 @@ test_india.ipynb
 .venv/
 .env
 # openai_api_key.txt
+environment.yml
