@@ -1,6 +1,6 @@
 
 test.ipynb
 test_india.ipynb
-.venv
+.venv/
 .env
 # openai_api_key.txt
